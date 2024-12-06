@@ -310,20 +310,23 @@ body {
     .program-roadmap .roadmap_item small{
         font-size: 14px;
     }
-    .page.program-content > p > img.icon-introduction,
-    .page.program-content > p > img.icon-dao {
-        width: 100% !important;
+    .page.program-content > p > img.icon-introduction{
+        width: 90% !important;
+    }
+    .page.program-content > p > img.icon-dao{
+        width: 60% !important;
     }
     .program-roadmap .roadmap_item{
         font-size: 16px;
         padding-bottom: 16px;
         padding-left: 32px;
+        padding-right: 10px;
     }
     .program-roadmap .roadmap_item small ul li{
         margin-bottom: 8px;
     }
     .program-roadmap .roadmap_item.done:before, .program-roadmap .roadmap_item.progress:before{
-        top: 2px;
+        top: 1px;
     }
     .program-footer .program-content a.btn{
         font-size: 16px;
