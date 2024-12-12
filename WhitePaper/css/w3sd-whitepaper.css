@@ -228,10 +228,10 @@ h1,h2,h3,h4,h5,h6 {
         padding: 20px 0 10px;
     }
     .program-content h3{
-        font-size: 1.45rem;
+        font-size: 1.65rem;
     }
     .program-content h4{
-        font-size: 1.35rem;
+        font-size: 1.4rem;
     }
     .program-content p{
         font-size: 1.35rem;
@@ -276,7 +276,12 @@ h1,h2,h3,h4,h5,h6 {
     .program-slogan h1{
         font-size: 2.8rem;
     }
-
+    ul li::marker {
+        font-size: 1.35rem;
+    }
+    .program-content ul li{
+        margin-bottom: 10px;
+    }
 }
 
 @media (max-width:440px) {
@@ -288,7 +293,7 @@ h1,h2,h3,h4,h5,h6 {
         height: 64px!important;
     }
     ol, ul{
-        padding-left: 30px;
+        padding-left: 24px;
     }
     .program-slogan h1{
         font-size: 2.4rem;
