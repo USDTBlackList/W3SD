@@ -252,138 +252,34 @@ body {
         padding: 0;
         max-width: 100%;
     }
-/*    .program-slogan h1{
-        font-size: 40px;
-    }
-    .program-content h2{
-        font-size: 36px;
-    }*/
     .page.program-content > p > img{
         width: 100% !important;
     }
-/*    .page.program-content > p > img.icon-introduction{
-        width: 400px !important;
-    }
-    .page.program-content > p > img.icon-dao{
-        width: 320px !important;
-    }*/
     .program-footer .program-content{
         width: 100%;
         clear: both;
         padding-bottom: 100px;
     }
-    /*
-    .program-footer .program-content:last-child{
-        padding-bottom: 0;
-    }
-    .page.program-media{
-        margin: 40px 20px;
-    }*/
-}
-@media (max-width:440px){
-    .program-slogan h1{
-        font-size:50px;
-    }
 }
 
-/*@media (max-width:768px){
-    .page.program-slogan > img.w3sd-brand{
-        width: 100px !important;
-        height: 100px !important;
-    }
-    .program-slogan h1{
-        font-size: 32px;
-        padding: 40px;
-    }
-    .program-content h2{
-        font-size: 32px;
-    }
-    .program-content h2 small{
-        margin-bottom: 0;
-        font-size: 14px;
-    }
-    .program-content p{
-        font-size: 16px;
-        margin-top: 20px;
-    }
-    .page.program-content > p > img.icon-introduction{
-        width: 320px !important;
-    }
-    .page.program-content > p > img.icon-dao{
-        width: 280px !important;
-    }
-    .program-roadmap .roadmap_item{
-        font-size: 18px;
-        padding-left: 44px;
-    }
-    .program-roadmap .roadmap_item small{
-        font-size: 16px;
-    }
-    .program-roadmap .roadmap_item:last-child{
-        padding-bottom: 0;
-    }
-    .page.program-media{
-        margin: 20px;
-    }
-}
 @media (max-width:440px){
     .page{
         margin: 80px 20px;
     }
-    .page.program-slogan > img.w3sd-brand{
-        width: 80px !important;
-        height: 80px !important;
-    }
     .program-slogan h1{
-        padding: 20px 0;
+        font-size:40px;
     }
     .program-content h2{
-        font-size: 28px;
+        font-size: 36px;
     }
-    .program-content h2 small{
-        padding-top: 4px;
-    }
-    .program-content p,
-    .program-roadmap .roadmap_item small{
-        font-size: 14px;
-    }
-    .page.program-content > p > img.icon-introduction{
-        width: 90% !important;
-    }
-    .page.program-content > p > img.icon-dao{
-        width: 60% !important;
+    .program-content h2 small,
+    .program-content p{
+        font-size: 20px;
     }
     .program-roadmap .roadmap_item{
-        font-size: 16px;
-        padding-bottom: 16px;
-        padding-left: 32px;
-        padding-right: 10px;
+        font-size: 22px;
     }
-    .program-roadmap .roadmap_item small ul li{
-        margin-bottom: 8px;
-    }
-    .program-roadmap .roadmap_item.done:before, .program-roadmap .roadmap_item.progress:before{
-        top: 1px;
-    }
-    .program-footer .program-content a.btn{
-        font-size: 16px;
-    }
-    .program-footer .program-content{
-        padding-bottom: 80px;
-    }
-    .page.program-media{
-        margin: 0 20px 20px;
-    }
-    .program-media p{
-        padding-bottom: 40px;
+    .program-roadmap .roadmap_item{
+        padding-left: 40px;
     }
 }
-@media (max-width:320px){
-    .program-slogan h1{
-        font-size: 28px;
-        line-height: 1.2;
-    }
-    .program-content h2{
-        font-size: 26px;
-    }
-}*/
