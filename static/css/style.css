@@ -266,6 +266,10 @@ body {
     .page{
         margin: 80px 20px;
     }
+    .page.program-media,
+    .page.program-footer{
+        margin: 20px;
+    }
     .program-slogan h1{
         font-size:40px;
     }
