@@ -117,21 +117,19 @@ body {
     max-width: 660px;
     margin: 0 auto;
 }
-.program-roadmap .roadmap_item small {
+.program-roadmap .roadmap_item ul {
     display: block;
     font-size: 20px;
     color: #fff;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 20px;
-}
-.program-roadmap .roadmap_item small ul{
     padding-left: 14px;
 }
-.program-roadmap .roadmap_item small ul li{
+.program-roadmap .roadmap_item ul li{
     margin-bottom: 12px;
 }
-.program-roadmap .roadmap_item small ul li:last-child{
+.program-roadmap .roadmap_item ul li:last-child{
     margin-bottom: 0;
 }
 .program-roadmap .roadmap_item:last-child:after {
