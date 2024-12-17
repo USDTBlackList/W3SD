@@ -77,7 +77,7 @@ li {
     unicode-bidi: isolate;
 }
 .h1,.h2,h1,h2 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin-bottom: 16px;
 }
 h1,h2,h3,h4,h5,h6 {
@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: .57em
 }
 .h3,h3 {
-    font-size: 1.75rem
+    font-size: 1.55rem
 }
 ::selection{
     background:#000;
@@ -116,10 +116,11 @@ h1,h2,h3,h4,h5,h6 {
 .program-slogan{
     padding-bottom: 40px;
     border-bottom: .5px #ddd solid;
+    margin-bottom: 20px;
 }
 .program-slogan h1{
     padding: 80px 0 20px;
-    font-size: 4rem;
+    font-size: 3.6rem;
 }
 .program-slogan h1 .w3sd-icon{
     font-size: 0;
@@ -128,18 +129,18 @@ h1,h2,h3,h4,h5,h6 {
     opacity: .9;
 }
 .program-slogan h1 .w3sd-icon img{
-    border-radius: 20px;
+    border-radius: 16px;
 }
 .program-slogan h1 strong{
     display: block;
 }
 .program-slogan h4{
-    font-size: 1.75rem;
+    font-size: 1.45rem;
     font-weight: 400;
 }
 .program-slogan p{
     opacity: .6;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     margin-bottom: 20px;
 }
 .program-slogan a.download{
@@ -186,11 +187,23 @@ h1,h2,h3,h4,h5,h6 {
     margin-bottom: 20px;
     font-size: smaller;
 }
+.program-content ul li ul{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 22px;
+}
+.program-content ul li ul li{
+    padding-bottom: 0;
+}
+.program-content ul li ul li::marker {
+    font-size: 1.85rem;
+}
+
 .program-content .img-border{
     border: 1px solid #eee;
 }
 .program-content .img-bg{
-    background: #F9F9F8;
+/*    background: #F9F9F8;*/
 }
 .program-content cite em{
     display: block;
